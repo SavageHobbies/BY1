@@ -1,0 +1,4 @@
+open ftp://hwd@by1.net:!Maverick007!@server25.shared.spaceship.host
+cd public_html
+put site.zip
+quit

@@ -1,0 +1,4 @@
+USER hwd@by1.net
+PASS !Maverick007!
+delete /public_html/wp-config.php
+quit

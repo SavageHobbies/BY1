@@ -1,0 +1,33 @@
+open server25.shared.spaceship.host
+hwd@by1.net
+!Maverick007!
+quote PASV
+cd /
+binary
+prompt
+mkdir public_html
+cd public_html
+mput *.html
+mput *.js
+mput *.css
+mput *.txt
+mput *.xml
+mkdir _next
+cd _next
+mkdir static
+cd static
+mkdir chunks
+mkdir css
+mkdir media
+cd chunks
+lcd "_next\static\chunks"
+mput *
+cd ..
+cd css
+lcd "..\css"
+mput *
+cd ..
+cd media
+lcd "..\media"
+mput *
+quit
